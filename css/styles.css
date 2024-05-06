@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ea2626;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(94, 224, 7, 0.902);
+}
+
+h1 {
+    text-align: center;
+    color: #3A508F;
+    background-color: antiquewhite;
+}
+
+.question {
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+
+.choices {
+    list-style-type: none;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.choices li {
+    margin-bottom: 10px;
+    background-color: #3A508F;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 2.0s ease;
+}
+
+.choices li:hover {
+    background-color: #FFC525;
+}
+
+.selected {
+    background-color: #3A508F;
+    color: #fbfbfb;
+}
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3A508F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFC525;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo7 {
+    width: 200px;
+    height: auto;
+    margin-right:0;
+}
